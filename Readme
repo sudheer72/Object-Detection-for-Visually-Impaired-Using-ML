@@ -1,0 +1,88 @@
+# Object Detection for Visually Impaired Using Machine Learning
+
+## 📌 Overview
+This project is a real-time, low-cost assistive system designed to help visually impaired individuals by providing audio-based awareness of their surroundings. It detects objects, recognizes familiar faces, estimates distance, and delivers voice feedback, enabling safer and more independent navigation.
+
+The system is optimized to run **offline on CPU-only systems**, making it suitable for low-resource environments without internet or GPU dependency.
+
+---
+
+## ✨ Features
+- Real-time object detection using **YOLOv3-tiny** trained on the **COCO dataset**
+- Face detection using **Haar Cascade Classifier**
+- Face recognition and user registration using **LBPH**
+- Voice-based feedback and alerts using **pyttsx3**
+- Voice-based user registration (hands-free interaction)
+- Distance estimation using the **pinhole camera model**
+- Offline, lightweight, and CPU-efficient execution
+
+---
+
+## 🛠️ Technologies Used
+- Python  
+- OpenCV  
+- YOLOv3-tiny (COCO Models)  
+- Haar Cascade  
+- LBPH Face Recognizer  
+- TensorFlow  
+- pyttsx3 (Text-to-Speech)  
+- Google Speech Recognition API / CMU Sphinx (offline fallback)
+
+---
+
+## ▶️ How It Works
+1. Camera captures real-time video frames.
+2. YOLOv3-tiny detects objects in the scene.
+3. Haar Cascade detects faces and LBPH recognizes registered users.
+4. Distance to detected objects is estimated using bounding box dimensions.
+5. Detected objects, faces, and distances are converted into speech.
+6. Audio feedback is delivered to the user in real time.
+
+---
+
+## ▶️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/object-detection-visually-impaired.git
+
+## nstall required dependencies:
+
+pip install -r requirements.txt
+
+## Run the main Python file:
+
+python main.py
+
+## 📊 Performance
+
+Object Detection Accuracy (mAP): ~55%
+
+Face Recognition Accuracy: ~85%
+
+Frame Rate: 18–22 FPS (CPU-only execution)
+
+Works reliably in indoor environments under moderate lighting
+
+## 🎯 Use Case
+
+Assists visually impaired users in identifying nearby objects and people
+
+Provides real-time spatial awareness using audio cues
+
+Enables hands-free interaction and offline usability
+
+## 🚀 Future Enhancements
+
+Support for multiple languages in voice feedback
+
+Improved distance estimation using depth sensors
+
+Deployment on wearable devices (smart glasses)
+
+Enhanced face recognition under low-light conditions
+
+## 👨‍💻 Author
+
+Sudheer Ravi
+B.Tech – Computer Science and Engineering
+VIT-AP University

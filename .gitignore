@@ -1,0 +1,14 @@
+# Large model files
+*.weights
+*.dat
+
+# Cache
+__pycache__/
+*.pyc
+
+# Audio & temp files
+*.mp3
+*.wav
+
+# Images (optional – keep only if needed)
+training_data/
