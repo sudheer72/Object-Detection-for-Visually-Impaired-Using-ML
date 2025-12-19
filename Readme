@@ -1,4 +1,4 @@
-# Object Detection for Visually Impaired Using Machine Learning
+Object Detection for Visually Impaired Using ML
 
 ## 📌 Overview
 This project is a real-time, low-cost assistive system designed to help visually impaired individuals by providing audio-based awareness of their surroundings. It detects objects, recognizes familiar faces, estimates distance, and delivers voice feedback, enabling safer and more independent navigation.
