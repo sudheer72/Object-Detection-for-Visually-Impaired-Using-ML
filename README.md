@@ -30,23 +30,51 @@ The system is optimized to run **offline on CPU-only systems**, making it suitab
 3. Haar Cascade detects faces and LBPH recognizes registered users  
 4. Distance to detected objects is estimated using bounding box dimensions  
 5. Detected objects, faces, and distances are converted into speech  
-6. Audio feedback is delivered to the user in real time  
+6. Audio feedback is delivered to the user in real time
 
 ## ▶️ How to Run
 1. Clone the repository:
-   ```bash
    git clone https://github.com/sudheer72/Object-Detection-for-Visually-Impaired-Using-ML.git
-````
 
 2. Install required dependencies:
-
-   ```bash
    pip install -r requirements.txt
-   ```
-3. Run the main Python file:
+   
+4. Run the main Python file:
 
-   ```bash
-   python main.py
-   ```
+   user.py
 
+## 📊 Performance
 
+* Object Detection Accuracy (mAP): ~55%
+* Face Recognition Accuracy: ~85%
+* Frame Rate: 18–22 FPS (CPU-only execution)
+* Works reliably in indoor environments under moderate lighting
+
+## 🎯 Use Case
+
+* Assists visually impaired users in identifying nearby objects and people
+* Provides real-time spatial awareness using audio cues
+* Enables hands-free interaction and offline usability
+
+## 🚀 Future Enhancements
+
+* Support for multiple languages in voice feedback
+* Improved distance estimation using depth sensors
+* Deployment on wearable devices (smart glasses)
+* Enhanced face recognition under low-light conditions
+
+## 🔽 Model Files
+
+Due to GitHub size limits, pretrained model files are not included.
+
+Download links:
+
+* YOLOv3: [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
+* YOLOv3-tiny: [https://pjreddie.com/media/files/yolov3-tiny.weights](https://pjreddie.com/media/files/yolov3-tiny.weights)
+* Dlib shape predictor: [https://github.com/davisking/dlib-models](https://github.com/davisking/dlib-models)
+
+## 👨‍💻 Author
+
+**Sudheer Ravi**
+B.Tech – Computer Science and Engineering
+VIT-AP University
