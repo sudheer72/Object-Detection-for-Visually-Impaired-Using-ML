@@ -34,11 +34,13 @@ The system is optimized to run **offline on CPU-only systems**, making it suitab
 
 ## ▶️ How to Run
 1. Clone the repository:
+
    git clone https://github.com/sudheer72/Object-Detection-for-Visually-Impaired-Using-ML.git
 
-2. Install required dependencies:
-   pip install -r requirements.txt
-   
+3. Install required dependencies:
+
+    pip install -r requirements.txt
+
 4. Run the main Python file:
 
    user.py
