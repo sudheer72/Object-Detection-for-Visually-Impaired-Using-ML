@@ -5,8 +5,6 @@ This project is a real-time, low-cost assistive system designed to help visually
 
 The system is optimized to run **offline on CPU-only systems**, making it suitable for low-resource environments without internet or GPU dependency.
 
----
-
 ## ✨ Features
 - Real-time object detection using **YOLOv3-tiny** trained on the **COCO dataset**
 - Face detection using **Haar Cascade Classifier**
@@ -15,8 +13,6 @@ The system is optimized to run **offline on CPU-only systems**, making it suitab
 - Voice-based user registration (hands-free interaction)
 - Distance estimation using the **pinhole camera model**
 - Offline, lightweight, and CPU-efficient execution
-
----
 
 ## 🛠️ Technologies Used
 - Python  
@@ -28,61 +24,63 @@ The system is optimized to run **offline on CPU-only systems**, making it suitab
 - pyttsx3 (Text-to-Speech)  
 - Google Speech Recognition API / CMU Sphinx (offline fallback)
 
----
-
 ## ▶️ How It Works
-1. Camera captures real-time video frames.
-2. YOLOv3-tiny detects objects in the scene.
-3. Haar Cascade detects faces and LBPH recognizes registered users.
-4. Distance to detected objects is estimated using bounding box dimensions.
-5. Detected objects, faces, and distances are converted into speech.
-6. Audio feedback is delivered to the user in real time.
-
----
+1. Camera captures real-time video frames  
+2. YOLOv3-tiny detects objects in the scene  
+3. Haar Cascade detects faces and LBPH recognizes registered users  
+4. Distance to detected objects is estimated using bounding box dimensions  
+5. Detected objects, faces, and distances are converted into speech  
+6. Audio feedback is delivered to the user in real time  
 
 ## ▶️ How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/object-detection-visually-impaired.git
+   git clone https://github.com/sudheer72/Object-Detection-for-Visually-Impaired-Using-ML.git
+````
 
-## nstall required dependencies:
+2. Install required dependencies:
 
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the main Python file:
 
-## Run the main Python file:
-
-python main.py
+   ```bash
+   python main.py
+   ```
 
 ## 📊 Performance
 
-Object Detection Accuracy (mAP): ~55%
-
-Face Recognition Accuracy: ~85%
-
-Frame Rate: 18–22 FPS (CPU-only execution)
-
-Works reliably in indoor environments under moderate lighting
+* Object Detection Accuracy (mAP): ~55%
+* Face Recognition Accuracy: ~85%
+* Frame Rate: 18–22 FPS (CPU-only execution)
+* Works reliably in indoor environments under moderate lighting
 
 ## 🎯 Use Case
 
-Assists visually impaired users in identifying nearby objects and people
-
-Provides real-time spatial awareness using audio cues
-
-Enables hands-free interaction and offline usability
+* Assists visually impaired users in identifying nearby objects and people
+* Provides real-time spatial awareness using audio cues
+* Enables hands-free interaction and offline usability
 
 ## 🚀 Future Enhancements
 
-Support for multiple languages in voice feedback
+* Support for multiple languages in voice feedback
+* Improved distance estimation using depth sensors
+* Deployment on wearable devices (smart glasses)
+* Enhanced face recognition under low-light conditions
 
-Improved distance estimation using depth sensors
+## 🔽 Model Files
 
-Deployment on wearable devices (smart glasses)
+Due to GitHub size limits, pretrained model files are not included.
 
-Enhanced face recognition under low-light conditions
+Download links:
+
+* YOLOv3: [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
+* YOLOv3-tiny: [https://pjreddie.com/media/files/yolov3-tiny.weights](https://pjreddie.com/media/files/yolov3-tiny.weights)
+* Dlib shape predictor: [https://github.com/davisking/dlib-models](https://github.com/davisking/dlib-models)
 
 ## 👨‍💻 Author
 
-Sudheer Ravi
+**Sudheer Ravi**
 B.Tech – Computer Science and Engineering
 VIT-AP University
