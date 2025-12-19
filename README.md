@@ -49,38 +49,4 @@ The system is optimized to run **offline on CPU-only systems**, making it suitab
    python main.py
    ```
 
-## 📊 Performance
 
-* Object Detection Accuracy (mAP): ~55%
-* Face Recognition Accuracy: ~85%
-* Frame Rate: 18–22 FPS (CPU-only execution)
-* Works reliably in indoor environments under moderate lighting
-
-## 🎯 Use Case
-
-* Assists visually impaired users in identifying nearby objects and people
-* Provides real-time spatial awareness using audio cues
-* Enables hands-free interaction and offline usability
-
-## 🚀 Future Enhancements
-
-* Support for multiple languages in voice feedback
-* Improved distance estimation using depth sensors
-* Deployment on wearable devices (smart glasses)
-* Enhanced face recognition under low-light conditions
-
-## 🔽 Model Files
-
-Due to GitHub size limits, pretrained model files are not included.
-
-Download links:
-
-* YOLOv3: [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
-* YOLOv3-tiny: [https://pjreddie.com/media/files/yolov3-tiny.weights](https://pjreddie.com/media/files/yolov3-tiny.weights)
-* Dlib shape predictor: [https://github.com/davisking/dlib-models](https://github.com/davisking/dlib-models)
-
-## 👨‍💻 Author
-
-**Sudheer Ravi**
-B.Tech – Computer Science and Engineering
-VIT-AP University
